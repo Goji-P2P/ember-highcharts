@@ -115,7 +115,7 @@ You can add the `emberHighCharts` option to your `ember-cli-build.js` file to lo
 var app = new EmberApp({
   emberHighCharts: {
     includeHighCharts: false,
-    includeHighChartsStyledMode: false,
+    useStyledMode: false,
     includeHighStock: true,
     includeHighMaps: false,
     includeHighChartsMore: true,
@@ -175,7 +175,7 @@ As of version 5, HighCharts supports CSS styling - if you wish to use this, use 
 ```js
 var app = new EmberApp({
   emberHighCharts: {
-    includeHighChartsStyledMode: true
+    useStyledMode: true
   }
 });
 ```
